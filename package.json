@@ -1,0 +1,29 @@
+{
+  "name": "seo-blog-frontend",
+  "version": "1.0.0",
+  "description": "An updated (2023) nextjs frontend for Ryan Dhungel's MERN-SEO-Blog",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.11.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "next": "^13.4.4",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "query-string": "^8.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-gtm-module": "^2.0.11",
+    "react-quill": "^2.0.0",
+    "react-render-html": "^0.6.0",
+    "reactstrap": "^8.4.1"
+  },
+  "author": "Arie Verburgh",
+  "license": "ISC"
+}
