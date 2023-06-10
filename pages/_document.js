@@ -4,9 +4,10 @@ import Script from 'next/script';
 // import { publicRuntimeConfig } from '../next.config';
 
 const GTM_ID = 'GTM-PQM8XPG';
+//* Please note there is a difference between Google Tag Manager and Google Analytics
 
 class MyDocument extends Document {
-  //* Ryan Dhungel's code: suspect!
+  //* Ryan Dhungel's code: I could not get it to work.
   // setGoogleTags() {
   //   if (publicRuntimeConfig.PRODUCTION) {
   //     return {
@@ -54,7 +55,7 @@ class MyDocument extends Document {
             }}
           />
 
-          {/* //* Ryan Dhungel's code: suspect! */}
+          {/* //* Ryan Dhungel's code: I could not get it to work. */}
           {/* <Script dangerouslySetInnerHTML={this.setGoogleTags()} /> */}
           <script async src='https://www.googletagmanager.com/gtag/js?id=G-NFME8LHT4L'></script>
         </Head>
